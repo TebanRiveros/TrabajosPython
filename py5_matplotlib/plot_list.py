@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 lista =[]
 numero = int(input('ingrese el numero a evaluar :'))
 lista.append(numero)
@@ -13,3 +14,6 @@ while numero != 1:
         lista.append(numero)
 
 print(f"la lista es: { lista }")
+
+plt.plot(lista)
+plt.show()
