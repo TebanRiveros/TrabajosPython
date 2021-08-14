@@ -15,5 +15,7 @@ while numero != 1:
 
 print(f"la lista es: { lista }")
 
-plt.plot(lista)
+plt.plot(lista,"r")
+plt.title("Grafica Lista Con El Numero 27")
+plt.grid(True)
 plt.show()
